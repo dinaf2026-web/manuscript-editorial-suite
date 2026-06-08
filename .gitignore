@@ -1,0 +1,11 @@
+# Per-project editorial data lives in each book's own folder, never in this repo.
+.manuscript/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.xlsx
