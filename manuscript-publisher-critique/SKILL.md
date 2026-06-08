@@ -94,24 +94,37 @@ the single biggest strength, the single most urgent problem, and whether it's
 ready. Write it like the note an editor sends their boss, not the author.
 
 ## SCORECARD
-| Category | Grade | 1-line read |
-|---|---|---|
-| Hook & Opening | [A-F] | … |
-| Voice & POV Authority | [A-F] | … |
-| Character & Relationships | [A-F] | … |
-| Plot & Structure Logic | [A-F] | … |
-| Pacing & Chapter Architecture | [A-F] | … |
-| Layered Stakes | [A-F] | … |
-| Setting / World as Character | [A-F] | … |
-| Emotional Truth | [A-F] | … |
-| Genre Delivery (per greatness_set) | [A-F] | … |
-| Series / Standalone Architecture | [A-F] | … |
-| Marketability & Comps | [A-F] | … |
-| Continuity Integrity | [PASS / FLAGS] | … |
+Score each category **0-100**; the letter is derived from that number (A 90-100,
+B 80-89, C 70-79, D 60-69, F <60). `Wt` is the fixed weight from the rubric.
 
-(Adjust category names/emphasis to the genre overlay — e.g. "Plot & Fair-Play" for
-mystery, "Worldbuilding & Magic Logic" for fantasy, "Relationship Arc & Heat" for
-romance, "Narrative Truth & Reflection" for memoir. Keep the row count stable.)
+| Category | Score (0-100) | Grade | Wt | 1-line read |
+|---|---|---|---|---|
+| Hook & Opening | [n] | [A-F] | 13 | … |
+| Voice & POV Authority | [n] | [A-F] | 15 | … |
+| Character & Relationships | [n] | [A-F] | 12 | … |
+| Plot & Structure Logic | [n] | [A-F] | 12 | … |
+| Pacing & Chapter Architecture | [n] | [A-F] | 12 | … |
+| Layered Stakes | [n] | [A-F] | 6 | … |
+| Setting / World as Character | [n] | [A-F] | 5 | … |
+| Emotional Truth | [n] | [A-F] | 12 | … |
+| Genre Delivery (per greatness_set) | [n] | [A-F] | 8 | … |
+| Series / Standalone Architecture | [n] | [A-F] | 2 | … |
+| Marketability & Comps | [n] | [A-F] | 3 | … |
+| Continuity Integrity | — | [PASS / FLAGS] | gate | … |
+
+(Adjust only the *names* of the genre-flavored rows to the overlay — e.g. "Plot &
+Fair-Play" for mystery, "Worldbuilding & Magic Logic" for fantasy, "Relationship Arc
+& Heat" for romance, "Narrative Truth & Reflection" for memoir. **Weights never
+change** — express genre emphasis through the scores, not the weights. Keep the row
+count stable.)
+
+## WEIGHTED OVERALL (show your math)
+Compute it explicitly so the verdict is auditable:
+`Overall = Σ(score × Wt) / Σ(Wt)` over all scored rows. Continuity Integrity is a
+gate, not a row. If any category is **N/A from excerpt**, drop it and divide by the
+remaining weight sum (renormalize) — and name the dropped categories. State the
+resulting number, then apply any overrides from the rubric (continuity, shelf) before
+finalizing the VERDICT's grade and acquisitions call.
 
 ## WHAT'S WORKING
 3-5 specific strengths, each anchored to a line, beat, or moment. Tell the author

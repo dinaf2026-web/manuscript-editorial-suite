@@ -36,12 +36,15 @@ greatness_set: "general"  # mystery | fantasy | romance | thriller | literary | 
 #   prose-immersion   — line-level scene-immersion audit (all narrative prose)
 #   publisher         — acquisitions + developmental read (all)
 #   listing           — KDP blurb / categories / keywords (all)
+# (A cinematic / blocking pass is available as a separate add-on skill,
+#  manuscript-cinematic-scene-audit — add `cinematic` here once it's installed.)
 passes:
   - continuity
   - prose-immersion
   - publisher
   - listing
   # - fair-play       # uncomment for mysteries/thrillers
+  # - cinematic       # add-on: manuscript-cinematic-scene-audit (all narrative prose)
 
 # WHERE your series bible / canon lives. Any one of these (or none):
 #   doc:   a path to a bible document the continuity pass should read

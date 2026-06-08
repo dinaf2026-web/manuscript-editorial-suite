@@ -53,11 +53,14 @@ continuity override above. Weights total 100; page-turn drivers dominate:
 | Series / Standalone Architecture | 2 |
 | **Total** | **100** |
 
-These weights are a sensible default for narrative fiction. A genre overlay may
-re-emphasize (e.g. romance leans more weight onto Character & Relationships and
-Emotional Truth; fantasy onto Setting/World and Genre Delivery; literary onto Voice
-and Emotional Truth). If you shift weights for the genre, **state the adjusted
-table** in the report so the score stays auditable. Keep the total at 100.
+**These weights are fixed for every genre — do not change them.** Reproducibility
+depends on it: the same manuscript must yield the same number regardless of who runs
+the pass. A genre overlay (see `greatness-markers.md`) changes only *which evidence
+matters most* and the *names* of the genre-flavored rows (e.g. "Plot & Fair-Play" for
+mystery, "Relationship Arc" for romance) — it never re-weights the table. If a genre
+truly demands a different emphasis, express it through the category **grades** (a
+romance with a flat central relationship simply scores low on Character &
+Relationships and Emotional Truth), not by editing weights.
 
 When a category is **N/A from excerpt**, drop it and renormalize the remaining
 weights to 100 — and say so. Never score a category the source can't support; mark

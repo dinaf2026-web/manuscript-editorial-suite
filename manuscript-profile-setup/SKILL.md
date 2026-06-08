@@ -48,7 +48,8 @@ it to a short, friendly back-and-forth, not a form dump. The fields:
 7. **Load-bearing facts** — the handful of things a contradiction of would break
    the book (a secret, a death, a timeline anchor).
 8. **Which passes apply** — default to continuity + prose-immersion + publisher +
-   listing; add **fair-play** only if it's a mystery/crime/thriller.
+   listing; add **fair-play** only if it's a mystery/crime/thriller. (If the
+   add-on `manuscript-cinematic-scene-audit` is installed, also add `cinematic`.)
 9. **Marketing constraints** — anything that must stay out of blurbs.
 
 Don't stall on blanks. Any field can be empty; the passes degrade gracefully and
@@ -60,7 +61,9 @@ facts gives 80% of the value.
 - `greatness_set` ← map from genre (mystery→mystery, fantasy→fantasy, romance→
   romance, thriller→thriller, literary→literary, memoir/nonfiction→memoir-nonfiction,
   anything else→general).
-- `passes` ← include `fair-play` iff genre ∈ {mystery, crime, thriller, suspense}.
+- `passes` ← continuity + prose-immersion + publisher + listing by default; add
+  `fair-play` iff genre ∈ {mystery, crime, thriller, suspense}; add `cinematic` iff
+  the `manuscript-cinematic-scene-audit` add-on is installed.
 - `ledger_path` ← `.manuscript/canon-ledger.json`.
 
 State the derived defaults so the author can override them.

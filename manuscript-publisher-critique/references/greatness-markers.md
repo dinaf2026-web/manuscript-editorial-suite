@@ -70,7 +70,7 @@ measure against that author's *technique*, never their words.
 
 ## OVERLAY: fantasy / sci-fi
 - **Worldbuilding that is lived-in, not catalogued** — revealed through character
-  need, not infodump. → **Setting / World as Character** (weight up).
+  need, not infodump. → **Setting / World as Character** (emphasis — weights stay fixed; reflect it in the grade).
 - **A magic/tech system with consistent rules and costs** — the plot never bends
   them for convenience. → **Plot & Structure Logic** ("World & System Logic").
 - **Wonder balanced with stakes** — awe serves the emotional arc.
@@ -78,7 +78,7 @@ measure against that author's *technique*, never their words.
 
 ## OVERLAY: romance
 - **The relationship is the plot** — the central arc is the bond's development.
-  → **Character & Relationships** (weight up) + **Emotional Truth** (weight up).
+  → **Character & Relationships** (emphasis — weights stay fixed; reflect it in the grade) + **Emotional Truth** (emphasis — weights stay fixed; reflect it in the grade).
 - **Earned beats** — attraction, conflict, the dark moment, and resolution each
   follow from character, not contrivance.
 - **Two protagonists who change each other** — both have interiority and growth.
@@ -88,9 +88,9 @@ measure against that author's *technique*, never their words.
   one conversation would fix.
 
 ## OVERLAY: literary / upmarket
-- **Sentence-level command** — prose is part of the meaning. → **Voice** (weight up).
+- **Sentence-level command** — prose is part of the meaning. → **Voice** (emphasis — weights stay fixed; reflect it in the grade).
 - **Interiority and theme** — the book is *about* something, carried through image
-  and character, not stated. → **Emotional Truth** (weight up).
+  and character, not stated. → **Emotional Truth** (emphasis — weights stay fixed; reflect it in the grade).
 - **Structural intention** — form serves meaning even when non-linear.
 - **Ambiguity earned, not evasive** — open questions feel deliberate, not unfinished.
 - Plot logic is judged as causal plausibility and thematic coherence, not puzzle

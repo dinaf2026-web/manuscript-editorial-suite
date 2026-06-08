@@ -41,6 +41,9 @@ ask any skill to "set up my book."
 ### Supporting
 - `/manuscript-canon-ledger` — A living, versioned canon store (STABLE / DISPUTED / EVOLVING + an intentional-change log) that the continuity pass reads so it flags real drift, not deliberate evolution
 
+### Optional add-on
+- `/manuscript-cinematic-scene-audit` — A 6th "read it like a film director" pass (scene population, blocking, camera-test, voiceover). Shipped as a separate skill; install it and the 6-pass router to slot it into the workflow.
+
 ## Install
 
 ```powershell
