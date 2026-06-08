@@ -78,6 +78,11 @@ romance, thriller, literary, memoir/nonfiction, or a general default). The
 fair-play pass only runs for mysteries and thrillers. The prose and continuity
 passes are genre-neutral. Set your genre once in the profile and the suite adapts.
 
+## Related repos
+- [manuscript-cinematic-scene-audit](https://github.com/dinaf2026-web/manuscript-cinematic-scene-audit) — the optional "read it like a film director" pass.
+- [manuscript-editorial-router](https://github.com/dinaf2026-web/manuscript-editorial-router) — the 6-pass router that adds cinematic routing.
+- [manuscript-editorial-suite-plugin](https://github.com/dinaf2026-web/manuscript-editorial-suite-plugin) — install the whole thing as one Claude Code plugin.
+
 ## Author
 [@dinaf2026-web](https://github.com/dinaf2026-web)
 
