@@ -47,6 +47,18 @@ ask any skill to "set up my book."
 
 ## Install
 
+### Easiest — one command (plugin)
+Installs all nine skills, including the cinematic pass and the 6-pass router, with no
+install-order or name-clash to think about:
+
+```
+/plugin marketplace add dinaf2026-web/manuscript-editorial-suite-plugin
+/plugin install manuscript-editorial-suite@manuscript-editorial-suite
+```
+
+### Manual — copy the skill folders
+For this 5-pass core suite on its own:
+
 ```powershell
 # Windows (PowerShell)
 $dest = "$env:USERPROFILE\.claude\skills"
