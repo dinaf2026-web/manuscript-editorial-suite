@@ -41,8 +41,9 @@ ask any skill to "set up my book."
 ### Supporting
 - `/manuscript-canon-ledger` — A living, versioned canon store (STABLE / DISPUTED / EVOLVING + an intentional-change log) that the continuity pass reads so it flags real drift, not deliberate evolution
 
-### Optional add-on
-- `/manuscript-cinematic-scene-audit` — A 6th "read it like a film director" pass (scene population, blocking, camera-test, voiceover). Shipped as a separate skill; install it and the 6-pass router to slot it into the workflow.
+### Optional add-on (separate repos)
+- `/manuscript-cinematic-scene-audit` — A 6th "read it like a film director" pass (scene population, blocking, camera-test, voiceover). Shipped as its own repo.
+- A **6-pass `manuscript-editorial-router`** also ships as its own repo and adds cinematic to the routing. ⚠️ It shares the name `manuscript-editorial-router` with the suite's 5-pass router below, so **install the standalone 6-pass router *last*** if you want it — otherwise re-running the suite install can overwrite it with the 5-pass copy. The suite is fully functional on its own with the 5-pass router; the cinematic pass is purely additive.
 
 ## Install
 
